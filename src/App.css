@@ -1,0 +1,20 @@
+#root {
+  margin: 0 auto;
+  padding: 0.1rem;
+  text-align: center;
+}
+
+/* Add these styles to your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #f6f9ff 0%, #e9f1ff 100%);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
